@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background: linear-gradient(to right, blue, white);
+    padding: 20px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: rgb(169, 169, 243);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.div1{
+    display: flex;
+    gap: 20px;
+}
+.div2{
+    display: flex;
+    gap: 20px;
+}
+.div3{
+    display: flex;
+    gap: 20px;
+}
+.div4{
+    display: flex;
+    gap: 50px;
+}
+#img1{
+    margin-left: 38%;
+    border-radius: 10px;
+}
+.div5{
+    text-align: center;
+}
+footer{
+    a{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+    }
+    background: linear-gradient(to right, blue, white);
+    text-align: center;
+    padding: 40px;
+}
